@@ -88,7 +88,7 @@ $(document).ready(function () {
     }
 
     function decipher(){
-	    console.log('diciphering');
+	    
 	    var msg = $('#demsg').val();
         var key = $('#dekey').val().toUpperCase();
         var keynum = new Array(key.length);
@@ -158,7 +158,7 @@ $(document).ready(function () {
        $("#resultd").fadeTo(2000, 1);
     }
     function updateDecView(numberarray) {
-		console.log('reder..');
+		
         $("#res2").show();
         $("#dedmsg").hide();
         if ($("#dedmsg") == null) {
